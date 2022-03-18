@@ -6,16 +6,16 @@ Ele é chamado quando o objeto é criado.
 Todas as classes têm construtores por padrão
 * */
 
-public class Main {
+public class Construtor {
     int x;
 
     //  Construtor
-    public Main(){
+    public Construtor(){
         x = 5; //  Define o valor inicial para o atributo 'x' da classe
     }
 
     public static void main(String[] args) {
-        Main myObj = new Main(); //  Cria um objeto da classe Main
+        Construtor myObj = new Construtor(); //  Cria um objeto da classe Main
         System.out.println(myObj.x); //  Imprime o valor de x;
     }
 
